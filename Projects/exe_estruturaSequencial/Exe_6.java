@@ -10,7 +10,7 @@ public class Exe_6 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double A, B, C, D, E, F;
+		double A, B, C, D, E, G;
 		double trian1, circ1, trapez1, quad1, retang1;
 		double trian2, circ2, trapez2, quad2, retang2;
 		
@@ -19,7 +19,7 @@ public class Exe_6 {
 		C = sc.nextDouble();
 		D = sc.nextDouble();
 		E = sc.nextDouble();
-		F = sc.nextDouble();
+		G = sc.nextDouble();
 		
 		trian1 = A * C / 2.0;
 		circ1 = 3.14159 * C * C;
@@ -27,9 +27,9 @@ public class Exe_6 {
 		quad1 = B * B;
 		retang1 = A * B;
 		
-		trian2 = D * F / 2.0;
-		circ2 = 3.14159 * F * F;
-		trapez2 = (D + E) / 2.0 * F;
+		trian2 = D * G / 2.0;
+		circ2 = 3.14159 * G * G;
+		trapez2 = (D + E) / 2.0 * G;
 		quad2 = E * E;
 		retang2 = D * E;
 		
